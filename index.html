@@ -24,6 +24,272 @@
                 \(\frac{|ZA|}{|ZB|} = \frac{|ZA'|}{|ZB'|}\)
             </p>
             <p>Wobei Z der Schnittpunkt der Strahlen ist, und A, B sowie A', B' auf je einer der parallelen Geraden liegen.</p>
+            
+            <h3>Alternative Darstellungen:</h3>
+            <div class="alternative-formulas">
+                <div class="formula-variant">
+                    <p class="math-formula">
+                        \(\frac{|ZA'|}{|ZA|} = \frac{|ZB'|}{|ZB|}\)
+                    </p>
+                    <p class="formula-description">Streckungsfaktor-Gleichung: Das Verhältnis der entsprechenden Strecken auf demselben Strahl ist konstant.</p>
+                </div>
+                
+                <div class="formula-variant">
+                    <p class="math-formula">
+                        \(\frac{|AA'|}{|BB'|} = \frac{|ZA|}{|ZB|}\)
+                    </p>
+                    <p class="formula-description">Parallelenabschnitte: Das Verhältnis der Abstände zwischen den parallelen Geraden entspricht dem Verhältnis der Strahlen vom Punkt Z.</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Neue Sektion mit Lösungsansätzen -->
+        <div class="approaches">
+            <h2>Lösungsansätze zum 1. Strahlensatz</h2>
+            <p>Je nach bekannten Größen gibt es drei gängige Ansätze zur Anwendung des 1. Strahlensatzes:</p>
+            
+            <div class="approach-card">
+                <h3>1. Verhältnisgleichung der Strahlen</h3>
+                <p class="math-formula">
+                    \(\frac{|ZA|}{|ZB|} = \frac{|ZA'|}{|ZB'|}\)
+                </p>
+                <p>Dieser Ansatz ist nützlich, wenn drei der vier Streckenlängen ZA, ZB, ZA' und ZB' bekannt sind. Damit lässt sich die vierte Länge berechnen.</p>
+                <div class="example">
+                    <strong>Beispiel:</strong> Wenn ZA = 3 cm, ZB = 5 cm und ZA' = 6 cm sind, dann können wir ZB' berechnen:
+                    
+                    <div class="solution-steps">
+                        <p><strong>Schritt 1:</strong> Wir setzen die bekannten Werte in die Formel ein.</p>
+                        <math display="block">
+                            <mfrac>
+                                <mrow><mn>3</mn><mtext> cm</mtext></mrow>
+                                <mrow><mn>5</mn><mtext> cm</mtext></mrow>
+                            </mfrac>
+                            <mo>=</mo>
+                            <mfrac>
+                                <mrow><mn>6</mn><mtext> cm</mtext></mrow>
+                                <mtext>ZB'</mtext>
+                            </mfrac>
+                        </math>
+                        
+                        <p><strong>Schritt 2:</strong> Wir lösen die Gleichung nach ZB' auf, indem wir beide Seiten mit ZB' multiplizieren.</p>
+                        <math display="block">
+                            <mfrac>
+                                <mrow><mn>3</mn></mrow>
+                                <mrow><mn>5</mn></mrow>
+                            </mfrac>
+                            <mo>⋅</mo>
+                            <mtext>ZB'</mtext>
+                            <mo>=</mo>
+                            <mn>6</mn>
+                        </math>
+                        
+                        <p><strong>Schritt 3:</strong> Jetzt multiplizieren wir beide Seiten mit 5, um den Bruch aufzulösen.</p>
+                        <math display="block">
+                            <mn>3</mn>
+                            <mo>⋅</mo>
+                            <mfrac>
+                                <mtext>ZB'</mtext>
+                                <mn>5</mn>
+                            </mfrac>
+                            <mo>⋅</mo>
+                            <mn>5</mn>
+                            <mo>=</mo>
+                            <mn>6</mn>
+                            <mo>⋅</mo>
+                            <mn>5</mn>
+                        </math>
+                        
+                        <math display="block">
+                            <mn>3</mn>
+                            <mo>⋅</mo>
+                            <mtext>ZB'</mtext>
+                            <mo>=</mo>
+                            <mn>30</mn>
+                        </math>
+                        
+                        <p><strong>Schritt 4:</strong> Abschließend teilen wir beide Seiten durch 3, um ZB' zu isolieren.</p>
+                        <math display="block">
+                            <mtext>ZB'</mtext>
+                            <mo>=</mo>
+                            <mfrac>
+                                <mn>30</mn>
+                                <mn>3</mn>
+                            </mfrac>
+                            <mo>=</mo>
+                            <mn>10</mn>
+                            <mtext> cm</mtext>
+                        </math>
+                        
+                        <p><strong>Ergebnis:</strong> ZB' beträgt 10 cm.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="approach-card">
+                <h3>2. Streckungsfaktor-Gleichung</h3>
+                <p class="math-formula">
+                    \(\frac{|ZA'|}{|ZA|} = \frac{|ZB'|}{|ZB|}\)
+                </p>
+                <p>Dieser Ansatz betrachtet das Verhältnis der entsprechenden Strecken auf demselben Strahl. Der Streckungsfaktor ist für beide Strahlen identisch.</p>
+                <div class="example">
+                    <strong>Beispiel:</strong> Wenn ZA = 4 cm, ZA' = 10 cm und ZB = 7 cm sind, dann können wir ZB' berechnen:
+                    
+                    <div class="solution-steps">
+                        <p><strong>Schritt 1:</strong> Wir identifizieren den Streckungsfaktor zwischen ZA und ZA'.</p>
+                        <math display="block">
+                            <mtext>Streckungsfaktor</mtext>
+                            <mo>=</mo>
+                            <mfrac>
+                                <mrow><mtext>ZA'</mtext></mrow>
+                                <mrow><mtext>ZA</mtext></mrow>
+                            </mfrac>
+                            <mo>=</mo>
+                            <mfrac>
+                                <mrow><mn>10</mn><mtext> cm</mtext></mrow>
+                                <mrow><mn>4</mn><mtext> cm</mtext></mrow>
+                            </mfrac>
+                            <mo>=</mo>
+                            <mfrac>
+                                <mn>10</mn>
+                                <mn>4</mn>
+                            </mfrac>
+                            <mo>=</mo>
+                            <mfrac>
+                                <mn>5</mn>
+                                <mn>2</mn>
+                            </mfrac>
+                            <mo>=</mo>
+                            <mn>2.5</mn>
+                        </math>
+                        
+                        <p><strong>Schritt 2:</strong> Da der Streckungsfaktor für beide Strahlen gleich ist, gilt auch für ZB und ZB':</p>
+                        <math display="block">
+                            <mfrac>
+                                <mrow><mtext>ZB'</mtext></mrow>
+                                <mrow><mtext>ZB</mtext></mrow>
+                            </mfrac>
+                            <mo>=</mo>
+                            <mn>2.5</mn>
+                        </math>
+                        
+                        <p><strong>Schritt 3:</strong> Wir lösen nach ZB' auf, indem wir beide Seiten mit ZB multiplizieren.</p>
+                        <math display="block">
+                            <mtext>ZB'</mtext>
+                            <mo>=</mo>
+                            <mn>2.5</mn>
+                            <mo>⋅</mo>
+                            <mtext>ZB</mtext>
+                            <mo>=</mo>
+                            <mn>2.5</mn>
+                            <mo>⋅</mo>
+                            <mn>7</mn>
+                            <mtext> cm</mtext>
+                        </math>
+                        
+                        <p><strong>Schritt 4:</strong> Wir berechnen das Ergebnis.</p>
+                        <math display="block">
+                            <mtext>ZB'</mtext>
+                            <mo>=</mo>
+                            <mn>17.5</mn>
+                            <mtext> cm</mtext>
+                        </math>
+                        
+                        <p><strong>Ergebnis:</strong> ZB' beträgt 17.5 cm.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="approach-card">
+                <h3>3. Verhältnis der Parallelenabschnitte</h3>
+                <p class="math-formula">
+                    \(\frac{|AA'|}{|BB'|} = \frac{|ZA|}{|ZB|}\)
+                </p>
+                <p>Dieser Ansatz nutzt die Abstände zwischen den parallelen Linien und ist besonders hilfreich, wenn diese Abstände oder einige der Strecken vom Punkt Z bekannt sind.</p>
+                <div class="example">
+                    <strong>Beispiel:</strong> Wenn AA' = 6 cm, ZA = 3 cm und ZB = 5 cm sind, dann können wir BB' berechnen:
+                    
+                    <div class="solution-steps">
+                        <p><strong>Schritt 1:</strong> Wir setzen die bekannten Werte in die Formel ein.</p>
+                        <math display="block">
+                            <mfrac>
+                                <mrow><mn>6</mn><mtext> cm</mtext></mrow>
+                                <mrow><mtext>BB'</mtext></mrow>
+                            </mfrac>
+                            <mo>=</mo>
+                            <mfrac>
+                                <mrow><mn>3</mn><mtext> cm</mtext></mrow>
+                                <mrow><mn>5</mn><mtext> cm</mtext></mrow>
+                            </mfrac>
+                        </math>
+                        
+                        <p><strong>Schritt 2:</strong> Wir vereinfachen den Bruch auf der rechten Seite.</p>
+                        <math display="block">
+                            <mfrac>
+                                <mrow><mn>6</mn><mtext> cm</mtext></mrow>
+                                <mrow><mtext>BB'</mtext></mrow>
+                            </mfrac>
+                            <mo>=</mo>
+                            <mfrac>
+                                <mn>3</mn>
+                                <mn>5</mn>
+                            </mfrac>
+                        </math>
+                        
+                        <p><strong>Schritt 3:</strong> Wir lösen die Gleichung nach BB' auf, indem wir beide Seiten mit BB' multiplizieren.</p>
+                        <math display="block">
+                            <mn>6</mn>
+                            <mtext> cm</mtext>
+                            <mo>=</mo>
+                            <mfrac>
+                                <mn>3</mn>
+                                <mn>5</mn>
+                            </mfrac>
+                            <mo>⋅</mo>
+                            <mtext>BB'</mtext>
+                        </math>
+                        
+                        <p><strong>Schritt 4:</strong> Wir multiplizieren beide Seiten mit 5, um den Bruch aufzulösen.</p>
+                        <math display="block">
+                            <mn>6</mn>
+                            <mtext> cm</mtext>
+                            <mo>⋅</mo>
+                            <mn>5</mn>
+                            <mo>=</mo>
+                            <mn>3</mn>
+                            <mo>⋅</mo>
+                            <mtext>BB'</mtext>
+                        </math>
+                        
+                        <math display="block">
+                            <mn>30</mn>
+                            <mtext> cm</mtext>
+                            <mo>=</mo>
+                            <mn>3</mn>
+                            <mo>⋅</mo>
+                            <mtext>BB'</mtext>
+                        </math>
+                        
+                        <p><strong>Schritt 5:</strong> Abschließend teilen wir beide Seiten durch 3, um BB' zu isolieren.</p>
+                        <math display="block">
+                            <mfrac>
+                                <mrow><mn>30</mn><mtext> cm</mtext></mrow>
+                                <mn>3</mn>
+                            </mfrac>
+                            <mo>=</mo>
+                            <mtext>BB'</mtext>
+                        </math>
+                        
+                        <math display="block">
+                            <mn>10</mn>
+                            <mtext> cm</mtext>
+                            <mo>=</mo>
+                            <mtext>BB'</mtext>
+                        </math>
+                        
+                        <p><strong>Ergebnis:</strong> BB' beträgt 10 cm.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>

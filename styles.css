@@ -98,4 +98,160 @@ button:hover {
     margin: 20px 0;
 }
 
-/* Styles für den Strahlensatz-Rechner entfernt */ 
+/* Neue Stile für alternative Formelvarianten */
+.formula h3 {
+    color: #2980b9;
+    margin-top: 25px;
+    font-size: 1.1em;
+    border-top: 1px solid #c8e1f3;
+    padding-top: 15px;
+}
+
+.alternative-formulas {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.formula-variant {
+    background-color: #f5f9fc;
+    border-radius: 4px;
+    padding: 12px;
+    border-left: 4px solid #3498db;
+}
+
+.formula-variant:nth-child(1) {
+    border-left-color: #e74c3c; /* Rot */
+}
+
+.formula-variant:nth-child(2) {
+    border-left-color: #2ecc71; /* Grün */
+}
+
+.formula-variant .math-formula {
+    margin: 10px 0;
+    font-size: 1.15em;
+}
+
+.formula-description {
+    margin: 8px 0 0 0;
+    font-style: italic;
+    color: #555;
+    font-size: 0.95em;
+}
+
+/* Styles für den Strahlensatz-Rechner entfernt */
+
+/* Neue Stile für die Lösungsansätze */
+.approaches {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+}
+
+.approaches h2 {
+    color: #2980b9;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+.approaches p {
+    margin-bottom: 20px;
+}
+
+.approach-card {
+    background-color: white;
+    border-left: 4px solid #3498db;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.approach-card h3 {
+    color: #2c3e50;
+    margin-top: 0;
+    font-size: 1.2em;
+}
+
+.approach-card .math-formula {
+    background-color: #f5f9fc;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+.example {
+    background-color: #f0f8ff;
+    padding: 12px;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+.example p {
+    margin: 8px 0 0 0;
+    font-style: italic;
+}
+
+/* Unterschiedliche Farben für die verschiedenen Ansätze */
+.approach-card:nth-child(1) {
+    border-left-color: #3498db; /* Blau */
+}
+
+.approach-card:nth-child(2) {
+    border-left-color: #e74c3c; /* Rot */
+}
+
+.approach-card:nth-child(3) {
+    border-left-color: #2ecc71; /* Grün */
+}
+
+/* Neue Stile für die Solution Steps */
+.solution-steps {
+    margin-top: 15px;
+    padding: 10px 0 5px 0;
+    border-top: 1px dashed #ccc;
+}
+
+.solution-steps p {
+    margin: 12px 0;
+    font-style: normal;
+}
+
+.solution-steps p strong {
+    color: #2c3e50;
+}
+
+.solution-steps math {
+    margin: 12px 0;
+    background-color: #f9f9f9;
+    padding: 8px;
+    border-radius: 4px;
+    border-left: 3px solid #3498db;
+    display: block;
+    overflow-x: auto;
+}
+
+.solution-steps math mfrac {
+    font-size: 1.2em;
+}
+
+.solution-steps math mo, 
+.solution-steps math mn, 
+.solution-steps math mtext {
+    font-size: 1.1em;
+}
+
+.solution-steps p:last-child {
+    font-weight: bold;
+    background-color: #e8f6fc;
+    padding: 8px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 15px;
+} 
