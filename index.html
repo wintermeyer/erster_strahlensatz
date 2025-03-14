@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Der erste Strahlensatz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>1. Strahlensatz</h1>
+        <div class="explanation">
+            <p>Wenn zwei Strahlen von einem Punkt Z ausgehen und von parallelen Geraden geschnitten werden, entstehen proportionale Abschnitte.</p>
+        </div>
+        <div class="visualization">
+            <canvas id="strahlensatzCanvas" width="800" height="500"></canvas>
+        </div>
+        
+        <!-- Rechnerbereich entfernt -->
+        
+        <div class="formula">
+            <h2>Formel des ersten Strahlensatzes:</h2>
+            <p class="math-formula">
+                \(\frac{|ZA|}{|ZB|} = \frac{|ZA'|}{|ZB'|}\)
+            </p>
+            <p>Wobei Z der Schnittpunkt der Strahlen ist, und A, B sowie A', B' auf je einer der parallelen Geraden liegen.</p>
+        </div>
+    </div>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
